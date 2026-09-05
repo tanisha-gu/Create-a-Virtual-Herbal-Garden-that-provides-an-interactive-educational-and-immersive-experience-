@@ -1,6 +1,5 @@
-"""
-Plant database model
-"""
+
+#Plant database model
 
 import json
 from datetime import datetime
