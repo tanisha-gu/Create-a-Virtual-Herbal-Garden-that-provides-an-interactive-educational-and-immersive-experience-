@@ -13,7 +13,7 @@ tour_plants = db.Table(
     db.Column("plant_id", db.Integer, db.ForeignKey("plant.id"), primary_key=True),
 )
 
-
+#here creating a class with db model
 class Plant(db.Model):
     __tablename__ = "plant"
 
